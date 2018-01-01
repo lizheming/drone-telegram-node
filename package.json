@@ -1,0 +1,32 @@
+{
+  "name": "drone-telegram-node",
+  "version": "0.0.1",
+  "description": "drone telegram plugin with node",
+  "main": "src/index.js",
+  "bin": {
+    "telegram": "node src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizheming/drone-plugin-telegram.git"
+  },
+  "keywords": [
+    "drone",
+    "plugin",
+    "telegram",
+    "node"
+  ],
+  "author": "lizheming <i@imnerd.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lizheming/drone-plugin-telegram/issues"
+  },
+  "homepage": "https://github.com/lizheming/drone-plugin-telegram#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
