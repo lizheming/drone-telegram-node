@@ -10,4 +10,4 @@ COPY package.json /telegram-node/package.json
 RUN npm install
 
 COPY src/ /telegram-node/src
-ENTRYPOINT [ "node", "src/index.js" ]
+ENTRYPOINT [ "node", "/telegram-node/src/index.js" ]
