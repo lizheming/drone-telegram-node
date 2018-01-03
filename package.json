@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/lizheming/drone-plugin-telegram#readme",
   "dependencies": {
+    "drone-render": "^1.0.0",
     "ejs": "^2.5.7",
     "node-telegram-bot-api": "^0.30.0"
   }
